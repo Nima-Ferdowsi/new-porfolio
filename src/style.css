@@ -550,6 +550,103 @@ button:focus {
   color: white !important;
 }
 
+.resume_title {
+  position: relative;
+  line-height: 1;
+  padding-left: 35px;
+  margin-left: 12px;
+  text-align: left;
+  z-index: 100;
+}
+.resume_title::before {
+  top: 5px;
+  left: -7px;
+  width: 15px;
+  height: 15px;
+  display: block;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: #be50f4;
+}
+.resume_list {
+  padding: 0;
+  text-align: left;
+}
+.resume_list li {
+  position: relative;
+  list-style: none;
+}
+.resume_list > li::after {
+  top: -15px;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+}
+
+.resume_item {
+  position: relative;
+}
+.resume_item::before {
+  top: 43px;
+  left: 0;
+  width: 25px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+}
+.resume_head {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 90px;
+  margin-bottom: 10px;
+}
+.el_icon {
+  top: 26px;
+  left: 24px;
+  position: absolute;
+}
+.el_icon::before {
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: #be50f4;
+}
+.resume_item_title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume_head a{
+color: #fff;
+text-decoration: none;
+}
+.resume_item_pos {
+  font-size: 12px;
+
+}
+.resume_body {
+  padding: 20px 36px;
+}
+.resume_body p {
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.tech-label{
+  text-align: center;
+  font-size: 20px;
+}
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;

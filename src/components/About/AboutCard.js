@@ -8,29 +8,16 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
-            Hi Everyone, I am <span className="purple">Nima Ferdowsi </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+          Hi there! I'm an experienced  <i>
+                <b className="purple"> web and mobile developer  </b>
+              </i> with nearly <b className="purple">five years</b>  of hands-on experience in different companies . I've also had the incredible journey of founding and running my own web agency. It's been an amazing ride where I've honed my skills and learned the ropes of entrepreneurship.
 
+I'm truly passionate about what I do. I love crafting websites and mobile apps that not only work flawlessly but also engage and excite users. My mission is to make the digital world more user-friendly and visually appealing, while also delivering tangible results for businesses.
+
+I'm excited to bring my skills and enthusiasm to your team, where I can contribute to creating exceptional web and mobile experiences that leave a lasting impression.
+             
+          </p>
+ 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>

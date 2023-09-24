@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
+import Experience from "./Experience";
+
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
@@ -39,7 +41,11 @@ function About() {
         </h1>
 
         <Techstack />
+        <h1 className="project-heading">
+          My <strong className="purple">Experience </strong>
+        </h1>
 
+        <Experience />
         {/* <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
