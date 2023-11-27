@@ -1,5 +1,1 @@
-/api/*  https://rise-ecommerce.herokuapp.com/:splat  200
-/api/*  https://rise-ecommerce.herokuapp.com/login/:splat  200
 /* /index.html 200
-
-
