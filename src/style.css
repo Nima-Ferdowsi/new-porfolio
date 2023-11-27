@@ -637,11 +637,15 @@ text-decoration: none;
   padding: 20px 36px;
 }
 .resume_body p {
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 500;
   padding-left: 10px;
   margin-bottom: 0;
   color: #fff;
+}
+.resume_body h3{
+  font-size: 1.3rem;
+color: #87209e;
 }
 .tech-label{
   text-align: center;

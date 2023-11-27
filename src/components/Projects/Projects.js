@@ -8,8 +8,27 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Admin from "../../Assets/Projects/admin.png";
+import Ecom from "../../Assets/Projects/ecommerce.png";
+import Crypto from "../../Assets/Projects/crypto.png";
+import Coffe from "../../Assets/Projects/coffee.png";
+import Tesla from "../../Assets/Projects/tesla.png";
+import Food from "../../Assets/Projects/food.png";
+import Whatsapp from "../../Assets/Projects/whatsapp_image.jpg";
+import Acorn from "../../Assets/Projects/acorn.png";
+import Dentist from "../../Assets/Projects/Dentist.png";
 
 function Projects() {
+  const ecommdesc="its personal fullstack project created with react and node js that you can post your product have a login system and ect "
+  const chatDesc="its a whats app clone project that have front end and backend created with node js and react its a real time chat system it means it works like a real chat system you can upload avatar and etc...."
+  const teslaDesc="its a clone of tesla landing page created with react" 
+  const cryptoDesc="its a personal frontend project that you can see current price of coins and see the charts in diffrent time frames and diffrent currencies you can add them to your watch list created with react js" 
+ const  coffeShopDesc="Its a personal coffeshop static landing page created with plain html , css ,js "
+ const  Admindesc="its admin panel of my eccomece project created by reactjs and bootstrap"
+ const  Acrondesc="it was my freelance project that I had in my agency early stages that I did with react js and node js you can search properties and have price calculator etc.... "
+ const  dentistdesc="it was my freelance project that I had in my agency early stages that I did with react js and node js you can set Appoinments and see avaible times"
+ 
+ 
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -23,70 +42,88 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Ecom}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Ecommerce"
+              description={ecommdesc}
+              ghLink="https://github.com/Nima-Ferdowsi/Ecommerce-"
+              demoLink="https://rise-ecommerce.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Whatsapp}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Whatsapp clone"
+              description={chatDesc}
+              ghLink="https://github.com/Nima-Ferdowsi/Whatsup-clone"
+              demoLink="https://whatsappclon.netlify.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="Crypto Tracker">
+            <ProjectCard
+              imgPath={Crypto}
+              isBlog={false}
+              title="Crypto Tracker"
+              description={cryptoDesc}
+              ghLink="https://github.com/Nima-Ferdowsi/crypto_tracker"
+              demoLink="https://rise-crypto-tracker.netlify.app/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Acorn}
+              isBlog={false}
+              title="Acorn Real estate"
+              description={Acrondesc}
+              demoLink="https://www.acorngroup.co.uk/              "
+             />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dentist} 
+              isBlog={false}
+              title="Smile Grovecity"
+              description={dentistdesc}
+              demoLink="https://www.smilegrovecity.com/"
+             />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Coffe}
+              isBlog={false}
+              title="Coffeshop landing"
+              description={coffeShopDesc}
+              ghLink="https://github.com/Nima-Ferdowsi/coffee_landing_page"
+              demoLink="https://rise-coffee.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Admin}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Admin(Ecommerce)"
+              description={Admindesc}
+              ghLink="https://github.com/Nima-Ferdowsi/Ecommerce-"
+              demoLink="https://rise-ecommerce.netlify.app/"
             />
           </Col>
 
+        
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Tesla}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Tesla Clone"
+              description={teslaDesc}
+              ghLink="https://github.com/Nima-Ferdowsi/tesla_landing_page"
+              demoLink="https://rise-tesla-clone.netlify.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+   
         </Row>
       </Container>
     </Container>
