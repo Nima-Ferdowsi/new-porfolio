@@ -25,7 +25,7 @@ function Experience() {
             Frontend developer | USA
            </h5>
   
-
+           
         </div>
         <div class="resume_body">
         <p>I was a frontend developer in this company and coordinated in in diereprojects Like:</p>
@@ -34,14 +34,20 @@ function Experience() {
           <h3>.Sinansoft:</h3>Recreated the <a href="https://sinansoft.com/" target="_blank">website</a> of company with nextjs
           </li>
           <li>
+          <h3>.Centerlive:</h3> Developed app , and website with admin panel: Its is a researchin tool for researchers who will raise some qsurvey and assign some tasks for their participants and we used apis of oura ring and garmin for tracking their health and activities
+          <a href="https://centralive.health/" target="_blank"> Website</a> (App:Centerlive)
+          </li>
+          <li>
+          <h3>.Univoip:</h3>Contributed in creating a user-friendly website for UniVoIP, a telecocompany. The site enables users to effortlessly utilize and create VoIP numberimproving communication options for individuals and businesses. <a href="https://univoip.com/" target="_blank">Website</a>
+          </li>
+          <li>
           <h3>.Loanthem:</h3>Developed an app and website that revolutionized the borrowing and lending experience. Users can easily navigate, make agreements, and sup contracts for hassle-free financial transactions(APP:Loanthem)
           </li>
           <li>
           <h3>.Rally:</h3>Contributed significantly to an app that simplifies the process of bookinsports courts, hosting events, and connecting with players. Added user-friendfeatures to enhance the overall experience.
           </li>
-          <li>
-          <h3>.Univoip:</h3>Contributed in creating a user-friendly website for UniVoIP, a telecocompany. The site enables users to effortlessly utilize and create VoIP numberimproving communication options for individuals and businesses. <a href="https://univoip.com/" target="_blank">Website</a>
-          </li>
+           
+          
         </ul>
         </div>
     </div>

@@ -40,30 +40,25 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Ecom}
-              isBlog={false}
-              title="Ecommerce"
-              description={ecommdesc}
-              ghLink="https://github.com/Nima-Ferdowsi/Ecommerce-"
-              demoLink="https://rise-ecommerce.netlify.app/"
-            />
-          </Col>
+      
 
           <Col md={4} className="project-card">
             <ProjectCard
+                        cardLabel="Self Project"
+
               imgPath={Whatsapp}
               isBlog={false}
               title="Whatsapp clone"
               description={chatDesc}
               ghLink="https://github.com/Nima-Ferdowsi/Whatsup-clone"
-              demoLink="https://whatsappclon.netlify.app/login"
+              // demoLink="https://whatsappclon.netlify.app/login"
             />
           </Col>
 
           <Col md={4} className="Crypto Tracker">
             <ProjectCard
+                        cardLabel="Self Project"
+
               imgPath={Crypto}
               isBlog={false}
               title="Crypto Tracker"
@@ -74,6 +69,9 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+            cardLabel="Client Project"
+            cardLabelBg={'bg-warning'}
+
               imgPath={Acorn}
               isBlog={false}
               title="Acorn Real estate"
@@ -83,6 +81,8 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+             cardLabel="Client Project"
+             cardLabelBg={'bg-warning'}
               imgPath={Dentist} 
               isBlog={false}
               title="Smile Grovecity"
@@ -92,6 +92,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+            cardLabel="Self Project"
               imgPath={Coffe}
               isBlog={false}
               title="Coffeshop landing"
@@ -103,18 +104,30 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+            cardLabel="Self Project"
               imgPath={Admin}
               isBlog={false}
               title="Admin(Ecommerce)"
               description={Admindesc}
               ghLink="https://github.com/Nima-Ferdowsi/Ecommerce-"
+              // demoLink="https://rise-ecommerce.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+            cardLabel="Self Project"
+              imgPath={Ecom}
+              isBlog={false}
+              title="Ecommerce"
+              description={ecommdesc}
+              ghLink="https://github.com/Nima-Ferdowsi/Ecommerce-"
               demoLink="https://rise-ecommerce.netlify.app/"
             />
           </Col>
-
         
           <Col md={4} className="project-card">
             <ProjectCard
+            cardLabel="Self Project"
               imgPath={Tesla}
               isBlog={false}
               title="Tesla Clone"

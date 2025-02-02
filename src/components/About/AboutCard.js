@@ -8,14 +8,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
+ 
           Hi there! I'm an experienced  <i>
+            
                 <b className="purple"> web and mobile developer  </b>
-              </i> with nearly <b className="purple">five years</b>  of hands-on experience in different companies . I've also had the incredible journey of founding and running my own web agency. It's been an amazing ride where I've honed my skills and learned the ropes of entrepreneurship.
-
-I'm truly passionate about what I do. I love crafting websites and mobile apps that not only work flawlessly but also engage and excite users. My mission is to make the digital world more user-friendly and visually appealing, while also delivering tangible results for businesses.
-
-I'm excited to bring my skills and enthusiasm to your team, where I can contribute to creating exceptional web and mobile experiences that leave a lasting impression.
-             
+                 with  <b className="purple">+6 years</b> experience in different companies and I'
+also had the incredible journey of founding and running my own web
+agency for a while(not doing it anymore) and been in participate in
+variety of projects in that journey I also learned tho how manage a
+project
+my main stacks are: javascript ,react, next js ,react native,node js ,typescript etc...
+              </i> 
           </p>
  
           <p style={{ color: "rgb(155 126 172)" }}>
